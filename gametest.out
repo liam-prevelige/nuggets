@@ -1,0 +1,749 @@
+START OF LOG
+message_init: ready at port '49356'
+
+
+testing game_newPlayer
+
+sendOK: OK A
+message_send: TO 127.0.0.1:45678
+message_send: 1 lines:
+OK A
+sendGrid: GRID 21 80
+message_send: TO 127.0.0.1:45678
+message_send: 1 lines:
+GRID 21 80
+sendGold: GOLD 0 0 250
+message_send: TO 127.0.0.1:45678
+message_send: 1 lines:
+GOLD 0 0 250
+sendDisplay:
+message_send: TO 127.0.0.1:45678
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*.....*...|                                                                 
+  |...@......#                                                                 
+  |..........|                                                                 
+  +---------#+                                                                 
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+successful
+game_newPlayer: should be successful
+sendOK: OK B
+message_send: TO 127.0.0.1:35671
+message_send: 1 lines:
+OK B
+sendGrid: GRID 21 80
+message_send: TO 127.0.0.1:35671
+message_send: 1 lines:
+GRID 21 80
+sendGold: GOLD 0 0 250
+message_send: TO 127.0.0.1:35671
+message_send: 1 lines:
+GOLD 0 0 250
+sendDisplay:
+message_send: TO 127.0.0.1:35671
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*.....*.@.|                                                                 
+  |...A......#                                                                 
+  |..........|                                                                 
+  +---------#+                                                                 
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+sendDisplay:
+message_send: TO 127.0.0.1:45678
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*.....*.B.|                                                                 
+  |...@......#                                                                 
+  |..........|                                                                 
+  +---------#+                                                                 
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+successful
+game_newPlayer: should be successful
+sendOK: OK C
+message_send: TO 127.0.0.1:15632
+message_send: 1 lines:
+OK C
+sendGrid: GRID 21 80
+message_send: TO 127.0.0.1:15632
+message_send: 1 lines:
+GRID 21 80
+sendGold: GOLD 0 0 250
+message_send: TO 127.0.0.1:15632
+message_send: 1 lines:
+GOLD 0 0 250
+sendDisplay:
+message_send: TO 127.0.0.1:15632
+message_send: 22 lines:
+DISPLAY
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+     +---------------------------------+                                       
+     |.................................|                                       
+     |..............................@..|                                       
+     |......+---------------+..........|                                       
+                            |..........#                                       
+                            |..........|                                       
+                            |..........|                                       
+                            |..........|                                       
+                            +----------+                                       
+
+sendDisplay:
+message_send: TO 127.0.0.1:45678
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*.....*.B.|                                                                 
+  |...@......#                                                                 
+  |..........|                                                                 
+  +---------#+                                                                 
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+sendDisplay:
+message_send: TO 127.0.0.1:35671
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*.....*.@.|                                                                 
+  |...A......#                                                                 
+  |..........|                                                                 
+  +---------#+                                                                 
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+successful
+game_newPlayer: should be successful
+sendOK: OK D
+message_send: TO 127.0.0.1:09876
+message_send: 1 lines:
+OK D
+sendGrid: GRID 21 80
+message_send: TO 127.0.0.1:09876
+message_send: 1 lines:
+GRID 21 80
+sendGold: GOLD 0 0 250
+message_send: TO 127.0.0.1:09876
+message_send: 1 lines:
+GOLD 0 0 250
+sendDisplay:
+message_send: TO 127.0.0.1:09876
+message_send: 22 lines:
+DISPLAY
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                           +--------#+                         
+                                           |.........|                         
+                                           |@........|                         
+                                           #........*|                         
+                                           +----#----+                         
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+sendDisplay:
+message_send: TO 127.0.0.1:45678
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*.....*.B.|                                                                 
+  |...@......#                                                                 
+  |..........|                                                                 
+  +---------#+                                                                 
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+sendDisplay:
+message_send: TO 127.0.0.1:35671
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*.....*.@.|                                                                 
+  |...A......#                                                                 
+  |..........|                                                                 
+  +---------#+                                                                 
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+sendDisplay:
+message_send: TO 127.0.0.1:15632
+message_send: 22 lines:
+DISPLAY
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+     +---------------------------------+                                       
+     |.................................|                                       
+     |..............................@..|                                       
+     |......+---------------+..........|                                       
+                            |..........#                                       
+                            |..........|                                       
+                            |..........|                                       
+                            |..........|                                       
+                            +----------+                                       
+
+successful
+game_newPlayer: should be successful
+game_newPlayer: called invalid player address
+unsuccessful
+game_newPlayer: should be unsuccessful because address is not good
+message_send: TO 127.0.0.1:29456
+message_send: 1 lines:
+QUIT Sorry - you must provide player's name.
+unsuccessful
+game_newPlayer should be unsuccessful because name is empty string
+message_send: TO 127.0.0.1:29456
+message_send: 1 lines:
+QUIT Sorry - you must provide player's name.
+unsuccessful
+game_newPlayer: should be unsuccessful because name is only whitespace
+
+
+testing game_newSpectator
+
+sendGrid: GRID 21 80
+message_send: TO 127.0.0.1:51234
+message_send: 1 lines:
+GRID 21 80
+sendGold: GOLD 0 0 250
+message_send: TO 127.0.0.1:51234
+message_send: 1 lines:
+GOLD 0 0 250
+sendDisplay:
+message_send: TO 127.0.0.1:51234
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*.....*.B.|                 +---------+                                     
+  |...A......####              |.........|                +-------+            
+  |..........|                 +-----#---+                |.......|            
+  +---------#+                       #              #######.......|            
+            #                        #              #     +---#---+            
+            #  +-----------+         #     +--------#+        #                
+            ####...........##############  |.........|        #                
+               |...........|            #  |D........|        #                
+               +-----------+            ####........*|        #                
+                                           +----#----+        #                
+                                                #    +--------#--+             
+     +---------------------------------+        #    |...*.......|             
+     |.................................|        ######...........|             
+     |..............................C..|        #    |...........|             
+     |......+---------------+..........|        #    |...........|             
+     |......|               |..........##########    +-----------+             
+     |....*.|               |..........|                                       
+     |......|               |..........|                                       
+     |......|               |..........|                                       
+     +------+               +----------+                                       
+
+successful
+game_newSpectator: should be successful
+message_send: TO 127.0.0.1:51234
+message_send: 1 lines:
+QUIT Thanks for watching!
+sendGrid: GRID 21 80
+message_send: TO 127.0.0.1:23934
+message_send: 1 lines:
+GRID 21 80
+sendGold: GOLD 0 0 250
+message_send: TO 127.0.0.1:23934
+message_send: 1 lines:
+GOLD 0 0 250
+sendDisplay:
+message_send: TO 127.0.0.1:23934
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*.....*.B.|                 +---------+                                     
+  |...A......####              |.........|                +-------+            
+  |..........|                 +-----#---+                |.......|            
+  +---------#+                       #              #######.......|            
+            #                        #              #     +---#---+            
+            #  +-----------+         #     +--------#+        #                
+            ####...........##############  |.........|        #                
+               |...........|            #  |D........|        #                
+               +-----------+            ####........*|        #                
+                                           +----#----+        #                
+                                                #    +--------#--+             
+     +---------------------------------+        #    |...*.......|             
+     |.................................|        ######...........|             
+     |..............................C..|        #    |...........|             
+     |......+---------------+..........|        #    |...........|             
+     |......|               |..........##########    +-----------+             
+     |....*.|               |..........|                                       
+     |......|               |..........|                                       
+     |......|               |..........|                                       
+     +------+               +----------+                                       
+
+successful
+game_newSpectator: should be successful and send quit message to previous spectator address
+game_spectatorNew: called invalid address
+unsuccessful
+game_newSpectator: should be unsuccessful because address is not good
+
+
+testing game_playerMove
+
+sendDisplay:
+message_send: TO 127.0.0.1:23934
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*..A..*.B.|                 +---------+                                     
+  |..........####              |.........|                +-------+            
+  |..........|                 +-----#---+                |.......|            
+  +---------#+                       #              #######.......|            
+            #                        #              #     +---#---+            
+            #  +-----------+         #     +--------#+        #                
+            ####...........##############  |.........|        #                
+               |...........|            #  |D........|        #                
+               +-----------+            ####........*|        #                
+                                           +----#----+        #                
+                                                #    +--------#--+             
+     +---------------------------------+        #    |...*.......|             
+     |.................................|        ######...........|             
+     |..............................C..|        #    |...........|             
+     |......+---------------+..........|        #    |...........|             
+     |......|               |..........##########    +-----------+             
+     |....*.|               |..........|                                       
+     |......|               |..........|                                       
+     |......|               |..........|                                       
+     +------+               +----------+                                       
+
+sendDisplay:
+message_send: TO 127.0.0.1:45678
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*..@..*.B.|                                                                 
+  |..........#                                                                 
+  |..........|                                                                 
+  +---------#+                                                                 
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+sendDisplay:
+message_send: TO 127.0.0.1:35671
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*..A..*.@.|                                                                 
+  |..........#                                                                 
+  |..........|                                                                 
+  +---------#+                                                                 
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+sendDisplay:
+message_send: TO 127.0.0.1:15632
+message_send: 22 lines:
+DISPLAY
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+     +---------------------------------+                                       
+     |.................................|                                       
+     |..............................@..|                                       
+     |......+---------------+..........|                                       
+                            |..........#                                       
+                            |..........|                                       
+                            |..........|                                       
+                            |..........|                                       
+                            +----------+                                       
+
+sendDisplay:
+message_send: TO 127.0.0.1:09876
+message_send: 22 lines:
+DISPLAY
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                           +--------#+                         
+                                           |.........|                         
+                                           |@........|                         
+                                           #........*|                         
+                                           +----#----+                         
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+successful
+game_playerMove: should be successful
+game_playerMove: called with invalid address
+unsuccessful
+game_playerMove: should be unsuccessful because invalid address
+unsuccessful
+game_playerMove: should be unsuccessful because invalid key
+
+
+testing game_clientQuit
+
+message_send: TO 127.0.0.1:09876
+message_send: 1 lines:
+QUIT Thanks for playing!
+sendDisplay:
+message_send: TO 127.0.0.1:23934
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*..A..*.B.|                 +---------+                                     
+  |..........####              |.........|                +-------+            
+  |..........|                 +-----#---+                |.......|            
+  +---------#+                       #              #######.......|            
+            #                        #              #     +---#---+            
+            #  +-----------+         #     +--------#+        #                
+            ####...........##############  |.........|        #                
+               |...........|            #  |.........|        #                
+               +-----------+            ####........*|        #                
+                                           +----#----+        #                
+                                                #    +--------#--+             
+     +---------------------------------+        #    |...*.......|             
+     |.................................|        ######...........|             
+     |..............................C..|        #    |...........|             
+     |......+---------------+..........|        #    |...........|             
+     |......|               |..........##########    +-----------+             
+     |....*.|               |..........|                                       
+     |......|               |..........|                                       
+     |......|               |..........|                                       
+     +------+               +----------+                                       
+
+sendDisplay:
+message_send: TO 127.0.0.1:45678
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*..@..*.B.|                                                                 
+  |..........#                                                                 
+  |..........|                                                                 
+  +---------#+                                                                 
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+sendDisplay:
+message_send: TO 127.0.0.1:35671
+message_send: 22 lines:
+DISPLAY
+  +----------+                                                                 
+  |*..A..*.@.|                                                                 
+  |..........#                                                                 
+  |..........|                                                                 
+  +---------#+                                                                 
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+sendDisplay:
+message_send: TO 127.0.0.1:15632
+message_send: 22 lines:
+DISPLAY
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+     +---------------------------------+                                       
+     |.................................|                                       
+     |..............................@..|                                       
+     |......+---------------+..........|                                       
+                            |..........#                                       
+                            |..........|                                       
+                            |..........|                                       
+                            |..........|                                       
+                            +----------+                                       
+
+sendDisplay:
+message_send: TO 127.0.0.1:09876
+message_send: 22 lines:
+DISPLAY
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                           +--------#+                         
+                                           |.........|                         
+                                           |@........|                         
+                                           #........*|                         
+                                           +----#----+                         
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+
+successful
+
+
+testing game_clientQuit
+
+message_send: TO 127.0.0.1:23934
+message_send: 1 lines:
+QUIT Thanks for watching!
+successful
+game_clientQuit: should be successful
+game_clientQuit: called with invalid address
+unsuccessful
+game_clientQuit: should be unsuccessful because invalid address
+
+
+testing game_endGame
+
+message_send: TO 127.0.0.1:45678
+message_send: 5 lines:
+QUIT GAME OVER:
+A          0 Beyonce
+B          0 Bree
+C          0 Tim
+D          0 Halle
+
+message_send: TO 127.0.0.1:35671
+message_send: 5 lines:
+QUIT GAME OVER:
+A          0 Beyonce
+B          0 Bree
+C          0 Tim
+D          0 Halle
+
+message_send: TO 127.0.0.1:15632
+message_send: 5 lines:
+QUIT GAME OVER:
+A          0 Beyonce
+B          0 Bree
+C          0 Tim
+D          0 Halle
+
+game_endGame: should be successful
+
+
+testing all functions with bad game
+
+game_newPlayer: called with NULL game
+game_newPlayer: should be unsuccessful because game is bad
+game_spectatorNew: called with NULL game
+game_newSpectator: should be unsuccessful because game is bad
+game_playerMove: called with NULL game
+game_playerMove: should be unsuccessful because game is bad
+game_endGame: called with NULL game
+game_endGame: should be unsuccessful because game is bad

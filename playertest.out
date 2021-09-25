@@ -1,0 +1,48 @@
+success: player_getAddr()
+success: player_getName() returns beyonce
+success: player_getGrid() returned NULL
+success: player_setGrid() initial call grid: this is a grid
+success: player_setGrid() with new grid: this grid good
+success: player_getGrid() returns this grid good
+success: player_getPurse() when empty
+success: player_addPurse() with valid gold amt 23
+success: player_addPurse() did not add invalid gold amt -2
+success: player_addPurse() did not add zero gold
+success: player_getPurse() returns 23
+success: player_addPurse() added 29 to nonempty purse
+success: player_getPurse() returns 52
+success: player_getLoc() with unchanged location
+success: player_setLoc() with valid location 7
+success: player_setLoc() did not set negative location -7
+success: player_setLoc() did not set out of bounds 15 > 13
+success: player_getLoc() returns 7
+success: player_getStatus() player in game
+success: player_quitGame() player in game
+success: player_quitGame() disallow double quit
+success: player_getStatus() after quit
+success: player_summary() with valid id, see below:
+A         52 beyonce
+success: player_summary() disallows negative id
+success: player_summary() disallows out of bounds id
+success: player_delete() deletes player
+success: player_new() stops invalid address
+success: player_new() stops invalid maxNameLength
+success: player_new() truncates dylan o'brien to dylan 
+success: player_getAddr() blocks null player
+success: player_getName() blocks null player
+success: player_getGrid() blocks null player
+success: player_getPurse() blocks null player
+success: player_getLoc() blocks null player
+success: player_getStatus() blocks null player
+success: player_setGrid() blocks null player
+success: player_addPurse() blocks null player
+success: player_setLoc() blocks null player
+success: player_quitGame() blocks null player
+success: player_new() created spectator
+success: player_setGrid() allows spectator to set grid
+success: player_addPurse() blocks spectator
+success: player_setLoc() blocks spectator
+success: player_quitGame() blocks spectator
+success: player_summary() returns empty string for spectator
+success: player_delete() deletes spectator
+clean!
